@@ -1,0 +1,99 @@
+/* Reset some default styles to provide a consistent baseline */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with background color and padding */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Center the header content and add a top margin */
+header h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Style the navigation menu */
+header ul {
+    list-style: none;
+    text-align: center;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the main content area */
+main {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the footer with background color and padding */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the form input fields */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the list of content on the view page */
+ul {
+    list-style: none;
+}
+
+ul li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Style links to provide visual feedback */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
